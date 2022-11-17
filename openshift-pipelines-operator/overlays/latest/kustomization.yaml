@@ -12,3 +12,4 @@ patchesJson6902:
       name: openshift-pipelines-operator
       namespace: openshift-operators
     path: patch-channel.yaml
+
