@@ -8,12 +8,6 @@ bases:
 
 patchesJson6902:
   - target:
-      group: user.openshift.io
-      version: v1
-      kind: Group
-      name: developer-gitops-users
-    path: patch-group.yaml
-  - target:
       group: argoproj.io
       version: v1alpha1
       kind: ArgoCD

@@ -1,6 +1,0 @@
-apiVersion: user.openshift.io/v1
-kind: Group
-metadata:
-  name: developer-gitops-users
-users:
-  - kubeadmin
