@@ -5,3 +5,4 @@ namespace: developer-gitops
 
 resources:
   - developer-gitops-argocd-subscription.yaml
+  - developer-gitops-project.yaml
