@@ -12,7 +12,7 @@ spec:
   outputs:
     - name: remote-kafka
       type: kafka
-      url: 'tcp://kafka-example-kafka-brokers.kafka.svc.cluster.local:9092/log-topic'
+      url: 'tcp://kafka-example-kafka-brokers.kafka-example.svc.cluster.local:9092/log-topic'
   pipelines:
     - inputRefs:
         - spring-logs
