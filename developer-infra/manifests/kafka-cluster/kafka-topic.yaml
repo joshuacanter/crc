@@ -3,7 +3,7 @@ apiVersion: kafka.strimzi.io/v1beta2
 metadata:
   name: log-topic
   labels:
-    strimzi.io/cluster: example-kafka
+    strimzi.io/cluster: kafka-example
   namespace: openshift-operators
 spec:
   partitions: 3
