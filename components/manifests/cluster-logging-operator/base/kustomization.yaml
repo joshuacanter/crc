@@ -5,3 +5,4 @@ resources:
   - namespace.yaml
   - operatorgroup.yaml
   - cluster-logging-operator-subscription.yaml
+  - cluster-logging.yaml
