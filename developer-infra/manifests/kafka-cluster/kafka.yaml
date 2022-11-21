@@ -2,7 +2,7 @@ kind: Kafka
 apiVersion: kafka.strimzi.io/v1beta2
 metadata:
   name: kafka-example
-  namespace: openshift-operators
+  namespace: kafka-example
 spec:
   kafka:
     version: 3.2.3
