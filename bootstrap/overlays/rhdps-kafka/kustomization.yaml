@@ -5,7 +5,7 @@ bases:
 - ../../base
 - ../../../components/apps/openshift-pipelines-operator
 - ../../../components/apps/developer-gitops
-#- ../../../components/apps/amq-streams
+- ../../../components/apps/amq-streams-operator
 # resources:
 # - openshift-gitops-argocd.yaml
 # - openshift-gitops-rbac-policy.yaml
