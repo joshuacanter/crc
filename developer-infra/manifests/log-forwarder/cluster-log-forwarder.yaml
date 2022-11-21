@@ -1,0 +1,21 @@
+kind: ClusterLogForwarder
+apiVersion: logging.openshift.io/v1
+metadata:
+  name: instance
+  namespace: openshift-logging
+spec:
+  inputs:
+    - application:
+        namespaces:
+          - sample-java
+      name: spring-logs
+  outputs:
+    - name: remote-kafka
+      type: kafka
+      url: 'tcp://kafka-example-kafka-brokers.kafka.svc.cluster.local:9092/log-topic'
+  pipelines:
+    - inputRefs:
+        - spring-logs
+      name: forward-to-remote
+      outputRefs:
+        - remote-kafka
