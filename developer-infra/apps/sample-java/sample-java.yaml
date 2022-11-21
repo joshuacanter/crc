@@ -1,15 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kafka-cluster-app
+  name: sample-java-app
   namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     server: https://kubernetes.default.svc
+    namespace: sample-java
   project: default
   source:
-    path: developer-infra/manifests/log-forwarder/
-    repoURL: https://github.com/joshuacanter/cluster-configs.git
+    path: answers/helm/sample-app
+    repoURL: https://github.com/joshuacanter/kustomize-helm-demo.git
     targetRevision: main

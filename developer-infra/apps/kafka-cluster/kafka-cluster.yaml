@@ -8,6 +8,7 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
+    namespace: kafka-example
   project: default
   source:
     path: developer-infra/manifests/kafka-cluster/
