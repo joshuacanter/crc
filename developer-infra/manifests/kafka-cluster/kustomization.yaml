@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - kafka.yaml
+- kafka_topic.yaml
