@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: developer-gitops-app
+  name: openshift-elastic-app
   namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
