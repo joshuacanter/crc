@@ -5,6 +5,6 @@ bases:
 - ../../base
 
 
-# resources:
+resources:
 # - openshift-gitops-argocd.yaml
-# - openshift-gitops-rbac-policy.yaml
+- openshift-gitops-rbac-policy.yaml
