@@ -6,7 +6,7 @@ bases:
 - ../../../components/apps/openshift-pipelines-operator
 - ../../../components/apps/developer-gitops
 - ../../../components/apps/amq-streams-operator
-- ../../../component/apps/openshift-elastic
+- ../../../components/apps/openshift-elastic
 - ../../../components/apps/cluster-logging
 # resources:
 # - openshift-gitops-argocd.yaml
