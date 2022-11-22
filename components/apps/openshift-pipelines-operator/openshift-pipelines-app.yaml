@@ -13,6 +13,5 @@ spec:
     path: components/manifests/openshift-pipelines-operator/overlays/latest
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: main
-  spec:
-    syncPolicy:
-      automated: {}
+  syncPolicy:
+    automated: {}
