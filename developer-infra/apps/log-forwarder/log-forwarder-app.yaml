@@ -13,3 +13,6 @@ spec:
     path: developer-infra/manifests/log-forwarder/
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: main
+  spec:
+    syncPolicy:
+      automated: {}

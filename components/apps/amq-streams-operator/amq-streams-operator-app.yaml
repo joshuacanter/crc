@@ -13,3 +13,6 @@ spec:
     path: components/manifests/amq-streams-operator/overlays/stable
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: main
+  spec:
+    syncPolicy:
+      automated: {}

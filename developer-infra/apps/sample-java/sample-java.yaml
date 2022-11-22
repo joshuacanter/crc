@@ -14,3 +14,6 @@ spec:
     path: answers/helm/sample-app
     repoURL: https://github.com/joshuacanter/kustomize-helm-demo.git
     targetRevision: main
+  spec:
+    syncPolicy:
+      automated: {}
