@@ -3,3 +3,5 @@ kind: Kustomization
 
 resources:
 - openshift-gitops-subscription.yaml
+- operators-redhat-namespace.yaml
+- operatorgroup.yaml

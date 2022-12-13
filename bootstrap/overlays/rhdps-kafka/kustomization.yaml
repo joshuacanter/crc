@@ -8,6 +8,3 @@ bases:
 - ../../../components/apps/amq-streams-operator
 - ../../../components/apps/openshift-elastic
 - ../../../components/apps/cluster-logging
-# resources:
-# - openshift-gitops-argocd.yaml
-# - openshift-gitops-rbac-policy.yaml
