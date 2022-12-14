@@ -3,6 +3,8 @@ apiVersion: logging.openshift.io/v1
 metadata:
   name: instance
   namespace: openshift-logging
+  annotations:
+    argocd.argoproj.io/sync-wave: "5"
 spec:
   collection:
     type: fluentd
