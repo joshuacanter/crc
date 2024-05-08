@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sample-java-app
+  name: air-on
   namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
