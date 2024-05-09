@@ -11,7 +11,10 @@ spec:
     name: in-cluster
   project: default
   source:
-    path: crc/components/*
+    path: crc/components/
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: test
+    directory:
+      recursive: true
+
 
