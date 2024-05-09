@@ -11,8 +11,9 @@ spec:
     name: in-cluster
   project: default
   source:
-    path: crc/tenants
+    path: tenants
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: test
     directory:
-      include: 'fire/dev/*,air/dev/*'
+      recurse: true
+      include: '{fire/dev/*.yaml,air/dev/*.yaml}'
