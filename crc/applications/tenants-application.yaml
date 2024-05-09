@@ -15,5 +15,4 @@ spec:
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: test
     directory:
-      recurse: true
       include: '{fire/dev/*.yaml,air/dev/*.yaml}'
