@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: root-tenants
+  name: root-components
   namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +11,7 @@ spec:
     name: in-cluster
   project: default
   source:
-    path: crc/tenants
+    path: crc/components/*
     repoURL: https://github.com/joshuacanter/cluster-configs.git
     targetRevision: test
+
